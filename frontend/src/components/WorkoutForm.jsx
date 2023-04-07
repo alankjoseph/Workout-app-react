@@ -51,7 +51,7 @@ function WorkoutForm() {
     return (
         <form className="create" onSubmit={handleSubmit}>
             <h3>Add a new Workout</h3>
-            <label >Excersice Title:</label>
+            <label >Excersice :</label>
             <input 
                 type="text" 
                 onChange={(e)=>setTitle(e.target.value)}
